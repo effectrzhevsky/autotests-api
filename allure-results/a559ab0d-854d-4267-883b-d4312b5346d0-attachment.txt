@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/de408680-fbed-4023-be15-c275203cb6b2' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI2VDE3OjUzOjE5LjUzNzM5MSIsInVzZXJfaWQiOiJlNjEwZmEzZi1hZjJkLTRkYmYtOGVmMy1mOWNiYmU4ZDRkMDcifQ.LF4V4j1jkhlPTGrTzb_7r4paFkfq3rxfu67yEpKlOOc' \
+  -H 'content-length: 306' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Public every kid least every.","maxScore":53,"minScore":24,"description":"Although doctor involve course myself party name. Store anyone simple front president them. Ball life college enter wait thank.\nWish growth measure compare program. Fact line all ever property.","estimatedTime":"9 weeks"}'

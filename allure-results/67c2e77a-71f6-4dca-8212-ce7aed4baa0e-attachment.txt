@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI2VDE3OjUzOjE5LjUzNzM5MSIsInVzZXJfaWQiOiJlNjEwZmEzZi1hZjJkLTRkYmYtOGVmMy1mOWNiYmU4ZDRkMDcifQ.LF4V4j1jkhlPTGrTzb_7r4paFkfq3rxfu67yEpKlOOc' \
+  -H 'content-length: 424' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Amount sometimes put happy.","maxScore":98,"minScore":11,"description":"Memory interesting hot establish later treat where important. Seven look practice.\nSeat imagine act involve few.\nWith would close sell. Big section job person.\nGround hard south rule. Just world lay.","estimatedTime":"8 weeks","previewFileId":"09d5d446-1c4c-4534-a4e5-6a88eb7e6e65","createdByUserId":"e610fa3f-af2d-4dbf-8ef3-f9cbbe8d4d07"}'

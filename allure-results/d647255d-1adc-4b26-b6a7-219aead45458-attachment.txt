@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI2VDE3OjUzOjEyLjMwMTc5NCIsInVzZXJfaWQiOiIzMjVlODk4YS1lMmY2LTQ0ZDQtYmRlMi04OTFjZDdkZWE3ODEifQ.ZNsqngmagD4_S0f5bwjnMplDTAbN7OJnSNn_O_NuQfY' \
+  -H 'content-length: 355' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Than audience century front.","maxScore":85,"minScore":28,"description":"Before expect use team. Move where month fish take.\nPlan wish meet throughout. Song mission plant ball. Or people fish skin notice.","estimatedTime":"7 weeks","previewFileId":"75b27845-869e-4c7e-bc06-5cc3be6c2740","createdByUserId":"325e898a-e2f6-44d4-bde2-891cd7dea781"}'
