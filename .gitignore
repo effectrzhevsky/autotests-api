@@ -6,7 +6,7 @@
 .venv14
 __pycache__
 
-.env
+test_env
 
 # allure
 allure-results
