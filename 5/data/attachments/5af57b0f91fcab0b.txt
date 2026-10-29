@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI5VDE1OjIyOjA4LjE0Mzk1MSIsInVzZXJfaWQiOiJiMDVhNzJiNC1mZTI5LTQyOWMtYThhNC1lZjYyYmJmNjdlNWEifQ.GWFVdalqPOAqiG6SKec4zXo1GCTyOLdGzMx_lRjVHMI' \
+  -H 'content-length: 307' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Show of lawyer government decide.","maxScore":97,"minScore":9,"description":"Nice health suggest only tell result. Professor ask interest game brother start.","estimatedTime":"3 weeks","previewFileId":"0fcce3b0-b5d8-4c24-b346-1961332c3485","createdByUserId":"b05a72b4-fe29-429c-a8a4-ef62bbf67e5a"}'

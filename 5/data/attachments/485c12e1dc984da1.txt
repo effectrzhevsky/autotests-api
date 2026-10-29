@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI5VDE1OjIyOjA1LjM5OTk5NSIsInVzZXJfaWQiOiJmNjE3ZmQ3NC0xZTg3LTQxNDItYjhiNi01MzNkNzE3OTY0OTgifQ.2UtOxfoQP3aRZOqqCbQ5tn9CrFRo59JtAmTl94hmDr4' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Without much maybe.","maxScore":89,"minScore":8,"description":"Consumer past head whatever sister attention.\nCheck success campaign. Yes oil summer daughter far interview among. Teach man account offer situation bar building.","estimatedTime":"8 weeks","previewFileId":"801a5c37-8976-4993-9c24-aa6d239ba801","createdByUserId":"f617fd74-1e87-4142-b8b6-533d71796498"}'

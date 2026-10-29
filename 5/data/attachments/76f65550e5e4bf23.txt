@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI5VDE1OjIyOjEwLjE3NDQwMCIsInVzZXJfaWQiOiJlNGI4NGI2NS01NWY3LTRkNjAtOGQ1Ny05YWI2MTJhMzM0MjkifQ.-y0X8mKAmUugyZRMMdMjZEHNB_0f-AcgzTWL7oypSYk' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Arrive water significant impact population paper.","maxScore":77,"minScore":28,"description":"Father probably one condition country as. Leave enough fund opportunity eat which sign during. Box suffer become difference let.","estimatedTime":"9 weeks","previewFileId":"98e5b472-a887-43db-8d1b-fa9d831b672e","createdByUserId":"e4b84b65-55f7-4d60-8d57-9ab612a33429"}'

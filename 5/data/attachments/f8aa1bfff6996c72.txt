@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI5VDE1OjIyOjA5LjU3MzUzNSIsInVzZXJfaWQiOiJiNzdmZTg4MC03OWUyLTRkOTUtODZlMC0wNGM5NTM5MjdlMWIifQ.DNJ19IwotQC0i2L4-oL5hnOE12NCmf8vJOTDC1v6ixo' \
+  -H 'content-length: 293' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Brother market artist.","courseId":"704e480c-a355-4a11-9d21-3a36a14b481c","maxScore":99,"minScore":12,"orderIndex":89,"description":"Identify activity join responsibility artist conference current. Performance arrive hold leg. Near free investment spring.","estimatedTime":"6 weeks"}'

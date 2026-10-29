@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI5VDE1OjIyOjA4LjQ0MDY1OSIsInVzZXJfaWQiOiI3MWMwN2YwOC1kM2Q3LTQ4MzYtODY3NS01NmYxYTQ1MzI2YWIifQ.2yA5qLtPyYi91pAVMKEpdK1TsV_VI3LXKxMNE64H_eg' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Visit party around ready again and.","maxScore":86,"minScore":6,"description":"Star forward table much reason night prove. Discuss contain TV. Let member under example.\nPlant those change himself sell movie minute deal. Heavy by sister easy.","estimatedTime":"10 weeks","previewFileId":"4808cff9-4be2-4cb0-815c-ba99e7d57b29","createdByUserId":"71c07f08-d3d7-4836-8675-56f1a45326ab"}'

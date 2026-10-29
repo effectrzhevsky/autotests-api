@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI5VDE1OjIyOjA2LjkwMTM3NiIsInVzZXJfaWQiOiI3NzVkOWE1OS05MDFlLTRjOTAtYmRmNC05MGIxNGMzN2E2NGEifQ.4kdUy5DU9uHiPv3QTDIPluO7Bs5PULlUmTi6GLLcR4Q' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Result candidate feel company.","maxScore":85,"minScore":8,"description":"Myself law vote else when Democrat. Media nothing claim interview week fall.\nCentral about hard term area factor. Tv five all administration around.","estimatedTime":"10 weeks","previewFileId":"23147541-5050-408b-85a8-b8700d624a89","createdByUserId":"775d9a59-901e-4c90-bdf4-90b14c37a64a"}'

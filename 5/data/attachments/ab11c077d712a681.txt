@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI5VDE1OjIyOjA2LjYwNTQxMCIsInVzZXJfaWQiOiI5MDE0ZTY5OS0wZTk4LTQ2ZTAtOWNkYi1hOGM4N2RmYmJlMzIifQ.rANaou4Z5xDP2XNWhPcYdH30iMQnbwL6Qce_-u9DTM4' \
+  -H 'content-length: 311' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Her weight truth leader two book less.","maxScore":95,"minScore":13,"description":"Term guy analysis little really. Main at someone moment government government.","estimatedTime":"4 weeks","previewFileId":"c80bf97d-96c6-41f2-8481-92c03f392a8f","createdByUserId":"9014e699-0e98-46e0-9cdb-a8c87dfbbe32"}'

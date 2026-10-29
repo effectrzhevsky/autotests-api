@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/011d9f9f-6a02-4be3-a0c0-bed408599fa5' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI5VDE1OjIyOjA2LjYwNTQxMCIsInVzZXJfaWQiOiI5MDE0ZTY5OS0wZTk4LTQ2ZTAtOWNkYi1hOGM4N2RmYmJlMzIifQ.rANaou4Z5xDP2XNWhPcYdH30iMQnbwL6Qce_-u9DTM4' \
+  -H 'content-length: 216' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Become son spend.","maxScore":71,"minScore":3,"description":"Election hand truth safe live mean scientist hear. Practice theory last company information.\nHigh marriage bar both.","estimatedTime":"5 weeks"}'

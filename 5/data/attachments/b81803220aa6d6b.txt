@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI5VDE1OjIyOjA0LjQ2OTE5MyIsInVzZXJfaWQiOiI1ODI4MTEyYS1iYzk3LTQ2ZWUtYjE5Ni0wZGZiZGIzN2YwNjMifQ.YKvU6RWCVOMIz4kkQ1_Xb5SruTj4eY54gQroatzD15g' \
+  -H 'content-length: 348' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Republican back significant conference thing.","maxScore":86,"minScore":10,"description":"Sign feel run sell feel. Ball would six despite everything. Although baby long alone Republican likely pick.","estimatedTime":"2 weeks","previewFileId":"119205d0-74f3-4b2f-b4cf-612989a3b597","createdByUserId":"5828112a-bc97-46ee-b196-0dfbdb37f063"}'

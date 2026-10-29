@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI5VDE1OjIyOjA5LjU3MzUzNSIsInVzZXJfaWQiOiJiNzdmZTg4MC03OWUyLTRkOTUtODZlMC0wNGM5NTM5MjdlMWIifQ.DNJ19IwotQC0i2L4-oL5hnOE12NCmf8vJOTDC1v6ixo' \
+  -H 'content-length: 338' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Policy hair fall compare will space.","maxScore":71,"minScore":6,"description":"Miss star bad identify station. Project blood suggest.\nYes that home. Apply cost investment somebody along.","estimatedTime":"7 weeks","previewFileId":"98902ce2-9a36-4426-85bb-0fe191d2410c","createdByUserId":"b77fe880-79e2-4d95-86e0-04c953927e1b"}'
