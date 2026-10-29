@@ -1,3 +1,13 @@
+# pycharm
+.idea
+
+# python
 .venv
 .venv14
+__pycache__
+
 .env
+
+# allure
+allure-results
+allure-report
