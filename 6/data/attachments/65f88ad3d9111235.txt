@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI5VDE1OjQ0OjQzLjU3Mjk1NiIsInVzZXJfaWQiOiJlMWEyNmFjYi0yODM3LTRmMmEtYThlZS1jZDEwYzg3YTRhYWMifQ.WxeOTpnejEd_VV88w58htn-Xj5URkeXmptzJX3ZR554' \
+  -H 'content-length: 355' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bar knowledge executive.","maxScore":65,"minScore":25,"description":"Treatment interview fast. Guy industry green individual. Might star something worker.\nEnough region check some. Notice kind save blood.","estimatedTime":"6 weeks","previewFileId":"1c31a341-523e-4b13-a23b-86451f36fb5e","createdByUserId":"e1a26acb-2837-4f2a-a8ee-cd10c87a4aac"}'

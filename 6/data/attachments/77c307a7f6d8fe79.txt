@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:24 Check create course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Team arrive him quality sell sure.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 100
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 7
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Assume shoulder of maintain live market open. Anyone arm design at mention perform.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 2 weeks
+INFO     BASE_ASSERTIONS:base.py:38 Check that "preview_file_id" equals to d843b1a3-735c-49fa-b69d-f236b80aebe7
+INFO     BASE_ASSERTIONS:base.py:38 Check that "created_by_user_id" equals to 3c417bea-8e55-4fcb-b78d-ad27b3092a2a
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

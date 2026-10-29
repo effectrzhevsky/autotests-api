@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI5VDE1OjQ0OjQwLjY5MTMwMiIsInVzZXJfaWQiOiIzYzQxN2JlYS04ZTU1LTRmY2ItYjc4ZC1hZDI3YjMwOTJhMmEifQ.eerHMBlZMTrefyRQg6UHs_K4yGnDvMo9YGxP-iXrwmI' \
+  -H 'content-length: 312' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Team arrive him quality sell sure.","maxScore":100,"minScore":7,"description":"Assume shoulder of maintain live market open. Anyone arm design at mention perform.","estimatedTime":"2 weeks","previewFileId":"d843b1a3-735c-49fa-b69d-f236b80aebe7","createdByUserId":"3c417bea-8e55-4fcb-b78d-ad27b3092a2a"}'

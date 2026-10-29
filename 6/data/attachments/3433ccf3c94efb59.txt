@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI5VDE1OjQ0OjQzLjk4MDcyNCIsInVzZXJfaWQiOiIyN2NiMTJiYS1kZDMzLTRjOTAtYTg5OS01MGNkYTc4NDkyNGUifQ.O-afzd6BjXxzp_8dhBHm2pkrA_R85S9g6flW_K4ONrI' \
+  -H 'content-length: 250' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Everyone could then.","courseId":"41717bdb-c2f5-42a2-a918-3b7dd2f93009","maxScore":62,"minScore":15,"orderIndex":66,"description":"Present wrong conference series notice. Table purpose war author visit candidate.","estimatedTime":"6 weeks"}'

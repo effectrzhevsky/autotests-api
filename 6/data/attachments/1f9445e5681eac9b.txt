@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI5VDE1OjQ0OjQxLjcxMDMxMyIsInVzZXJfaWQiOiJjZWFmZTA4OS1kMTk1LTRjMzUtODY5MC05YzBmZTAyNzljNTIifQ.vSKqhTlBsg3LCYB--DVzo7KhbHYJK65YDix281oegGg' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"So audience exist without ability also.","maxScore":71,"minScore":16,"description":"Everybody recently green trial name. Prove industry mean option. Watch somebody course may. Better close clear card final.","estimatedTime":"3 weeks","previewFileId":"5f8baa5a-ade3-461a-ac56-c5b76af2db95","createdByUserId":"ceafe089-d195-4c35-8690-9c0fe0279c52"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/2a8246d3-b78f-4bf5-b86f-cde9d332230d' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI5VDE1OjQ0OjQxLjUxMTgyNyIsInVzZXJfaWQiOiI1NmY4YmMxNy1lM2EyLTQxYmMtYTkwYS0yNzM5MDE3NDJjZjcifQ.jKKcfRXmKclixeHQGV3Dk_Yvib6XHC8UJIRIV2vGa9M' \
+  -H 'content-length: 231' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Interview because usually contain leave.","maxScore":75,"minScore":11,"description":"Rock board how baby information control. Ahead actually including significant. Art commercial budget energy.","estimatedTime":"7 weeks"}'

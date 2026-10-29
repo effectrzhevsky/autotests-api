@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI5VDE1OjQ0OjQzLjk4MDcyNCIsInVzZXJfaWQiOiIyN2NiMTJiYS1kZDMzLTRjOTAtYTg5OS01MGNkYTc4NDkyNGUifQ.O-afzd6BjXxzp_8dhBHm2pkrA_R85S9g6flW_K4ONrI' \
+  -H 'content-length: 328' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Lead fear per attorney.","maxScore":51,"minScore":11,"description":"Imagine explain home article check. Try cultural food power TV business. Stay truth Mrs show less green guess.","estimatedTime":"7 weeks","previewFileId":"3a012cf7-ba5f-4770-8337-dfd484c82a46","createdByUserId":"27cb12ba-dd33-4c90-a899-50cda784924e"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI5VDE1OjQ0OjQxLjUxMTgyNyIsInVzZXJfaWQiOiI1NmY4YmMxNy1lM2EyLTQxYmMtYTkwYS0yNzM5MDE3NDJjZjcifQ.jKKcfRXmKclixeHQGV3Dk_Yvib6XHC8UJIRIV2vGa9M' \
+  -H 'content-length: 341' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Agent either project past same.","maxScore":97,"minScore":9,"description":"Analysis certainly food would discuss carry movie. Grow various range them. South wind however wall strategy strong.","estimatedTime":"8 weeks","previewFileId":"a892d0f6-a9dc-40eb-98fc-20bf7db741cc","createdByUserId":"56f8bc17-e3a2-41bc-a90a-273901742cf7"}'

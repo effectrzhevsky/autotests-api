@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI5VDE1OjQ0OjQyLjcyMDcwNSIsInVzZXJfaWQiOiIwMWVjMTMyMi0wNWY5LTRiMzItODA3MC0yYTQ0OGY5MDJiM2QifQ.F3SiEa-46b7q8RYB604KEM33tAXOxfLGZ1h1mTufs3k' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Main sense leg tonight better adult include.","maxScore":55,"minScore":27,"description":"Even long gas cultural forward game toward interest. Career PM difference study result door.\nWife history skill popular environment. Form suddenly nation religious concern three.","estimatedTime":"2 weeks","previewFileId":"b4cbc172-d82c-43b4-8bfb-949d0efe5d18","createdByUserId":"01ec1322-05f9-4b32-8070-2a448f902b3d"}'

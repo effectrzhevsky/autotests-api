@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTI5VDE1OjQ0OjQyLjkyMTI2MiIsInVzZXJfaWQiOiJhZWQ2NDY5Yy1lNzU2LTRiMTMtYTlhZS1kYzY2Y2I3MjgzMWYifQ.LFpbc1Hkl4OJcRXYgfQkaSS_oQWGzqh4il7rT2PFjSw' \
+  -H 'content-length: 431' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Assume far major pretty result should while.","maxScore":79,"minScore":28,"description":"Everybody out such decide place hand. Cut occur paper cold account ok.\nPoor goal accept star. Section save contain couple.\nHalf notice head official animal. Hair less traditional push point.","estimatedTime":"4 weeks","previewFileId":"8d13800e-f418-4cf1-991f-1bb28aef1068","createdByUserId":"aed6469c-e756-4b13-a9ae-dc66cb72831f"}'
