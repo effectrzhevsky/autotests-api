@@ -1,0 +1,12 @@
+{
+  "services": [
+    {
+        "key": "api-course",
+        "name": "API Course",
+        "tags": ["API", "COURSES"],
+        "repository": "https://github.com/Nikita-Filonov/qa-automation-engineer-api-course",
+        "swagger_url": "http://localhost:8000/openapi.json"
+    }
+],
+  "html_report_file": "./coverage.html"
+}

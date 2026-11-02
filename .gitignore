@@ -6,8 +6,15 @@
 .venv14
 __pycache__
 
-test_env
 
 # allure
 allure-results
 allure-report
+
+# coverage
+coverage.html
+coverage-results
+coverage-report.json
+coverage-history.json
+
+.DS_Store
